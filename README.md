@@ -1,8 +1,6 @@
 # Rabbit
 
-Program to apply concepts about microservies, Rabbit is an application that consume data from another services and use rabbit MQ to communicate between them, In this code you have a lot development concepts like good archteture, microservice, token authentication, docker compose.
-
-THis projetc was develop with Ruby on rails and docker, communicating with Spree, we have one aplication you can learn how to lead with modern application
+This project was develop with Ruby on rails and docker, communicating with Spree, we have one aplication you can learn how to lead with modern application
 
 
 To run this project on your machine you will need:
