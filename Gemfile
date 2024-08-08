@@ -26,6 +26,15 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+#used to rabbitMQ comunication
+gem 'bunny'
+
+#to make API calls
+gem 'httparty'
+
+#to managment tokens for acess
+gem 'jwt'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
