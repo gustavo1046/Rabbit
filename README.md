@@ -7,10 +7,11 @@ To run this project on your machine you will need:
 
 - Spree server (https://docs.spreecommerce.org/api-reference/introduction)
 - Rabbit MQ server (https://www.rabbitmq.com/docs/download)
-- Ruby installed
+- Ruby installed (3.0.0 version)
 
 steps are:
 -run "docker-compose up" from spree application
 -run "bin/rails s" to run your spree application on localhost
 -run "docker-compose up" from you rails application
 -run "rails s" to up your ruby on rails application (the port configurated on localhost is 3010 because port 3000 are in use by Spree for default)
+
