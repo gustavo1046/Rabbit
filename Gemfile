@@ -35,6 +35,8 @@ gem 'httparty'
 #to managment tokens for acess
 gem 'jwt'
 
+#to make requests to redis
+gem 'redis'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
