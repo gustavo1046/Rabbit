@@ -37,6 +37,9 @@ gem 'jwt'
 
 #to make requests to redis
 gem 'redis'
+
+# Use dotenv to load environment variables from .env into ENV in development
+gem 'dotenv-rails'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 

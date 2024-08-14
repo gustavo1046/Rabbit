@@ -24,7 +24,7 @@ class TokenPublisher
     token_redis = redis.get("user_token")
 
     response = HTTParty.get(
-      "http://localhost:3000/api/v2/platform/menu_items",
+      "http://localhost:3000/api/v2/platform/users",
       headers: {
         "Authorization" => "Bearer #{token_redis}",
       }
