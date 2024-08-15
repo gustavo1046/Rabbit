@@ -29,6 +29,9 @@ gem "jbuilder"
 #used to rabbitMQ comunication
 gem 'bunny'
 
+#used to make asyncronous jobs
+gem 'sidekiq'
+
 #to make API calls
 gem 'httparty'
 
