@@ -1,5 +1,5 @@
 class SendMessage
-  def perform(message)
+  def self.perform(message)
     queue_spree = RabbitMQService.queue("spree")
     queue_spree.channel.default_exchange.publish(message.to_json, routing_key: queue_spree.name, persistent: true)
     
